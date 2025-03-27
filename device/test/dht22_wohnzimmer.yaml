@@ -1,0 +1,10 @@
+# DHT22
+sensor:
+  - platform: dht
+    pin: GPIO6
+    temperature:
+      name: "Wohnzimmer Temperatur"
+    humidity:
+      name: "Wohnzimmer Luftfeuchtigkeit"
+    update_interval: 30s
+    model: DHT22
