@@ -18,16 +18,8 @@ wifi:
 # Packages
 packages:
   setup:
-    url: https://github.com/jtenniswood/esphome-lvgl/
-    files: [device/esp32-s3-touch-lcd-7.yaml,
-            addon/time.yaml,
-            addon/backlight.yaml,
-            addon/network.yaml,
-            assets/fonts.yaml,
-            assets/icons.yaml,
-            assets/images.yaml,
-            theme/button.yaml,
-            office/sensors.yaml,
-            office/lvgl.yaml]
+    url: https://github.com/SchlappaPumpf/esp32-s3-7inch-ha/
+    files: [device/test/device_wohnzimmer.yaml,
+            device/test/dht22_wohnzimmer.yaml]
     refresh: 1sec
 ```
