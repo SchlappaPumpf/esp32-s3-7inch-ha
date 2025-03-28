@@ -41,7 +41,7 @@ i2c:
   id: bus_a
 
 # Touchscreen (GT911)
-touch:
+touchscreen:
   - platform: gt911
     i2c_address: 0x14
     id: touch_screen
