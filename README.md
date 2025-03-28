@@ -1,6 +1,8 @@
 # esp32-s3-7inch-ha
 Just a test :)
 
+These snippets are mostly copied from other repositories - I'll try to do my very best to mention them...
+
 add to yaml-file:
 
 
