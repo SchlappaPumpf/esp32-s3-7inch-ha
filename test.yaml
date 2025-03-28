@@ -106,7 +106,7 @@ display:
         
     lambda: |-
       it.fill(COLOR_BLACK);
-      it.print(10, 10, id(font), COLOR_WHITE, "Temperatur: " + id(temp_sensor).state + "°C");
-      it.print(10, 30, id(font), COLOR_WHITE, "Luftfeuchtigkeit: " + id(humidity_sensor).state + "%");
+      it.print(10, 10, COLOR_WHITE, "Temperatur: " + id(temp_sensor).state + "°C");
+      it.print(10, 30, COLOR_WHITE, "Luftfeuchtigkeit: " + id(humidity_sensor).state + "%");
 
 
