@@ -109,7 +109,4 @@ display:
       it.print(10, 10, id(font), COLOR_WHITE, "Temperatur: " + id(temp_sensor).state + "°C");
       it.print(10, 30, id(font), COLOR_WHITE, "Luftfeuchtigkeit: " + id(humidity_sensor).state + "%");
 
-font:
-  - file: "fonts/arial.ttf"
-    id: font
-    size: 20
+
