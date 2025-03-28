@@ -8,11 +8,26 @@ substitutions:
   device_friendly_name: test
   device_sampling_time: 30s
   switch_aquarium_kinderzimmer: switch.shellyplus1pm_e465b8f25704_switch_0
-
+  #todo
   # glyphs
   #lightbulb_on:      "\U000F0335"
   #lightbulb_off:     "\U000F0336"
-
+  button01_name: Aquarium Kim
+  button01_entity: 
+  button01_on: An
+  button01_off: Aus
+  button02_name: Aquarium Mama
+  button02_entity:
+  button02_on: An
+  button02_off: Aus
+  button03_name: Uschi
+  button03_entity:
+  button03_on: Läuft
+  button03_off: Aus
+  button04_name: Muschibubu
+  button04_entity: 
+  button04_on: An
+  button04_off: Aus
 
 ################################################################################
 # Globals
