@@ -151,7 +151,7 @@ sensor:
 text_sensor:
   - platform: homeassistant
     id: remote_light
-    entity_id: switch.smart_power_strip_socket_2
+    entity_id: switch.shellyplus1pm_e465b8f25704_switch_0
     on_value:
       then:
         - lvgl.widget.update: # matrix button
