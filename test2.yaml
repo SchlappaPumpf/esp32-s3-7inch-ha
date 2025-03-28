@@ -89,10 +89,6 @@ wifi:
       password: !secret wifi_password
   output_power: 13
   reboot_timeout: 30min
-  manual_ip:
-    static_ip: ${device_ip_address}
-    gateway: !secret gateway_address
-    subnet: !secret subnet_address
 
   ap:
     # ssid: ${device_wifi_name}
