@@ -43,11 +43,11 @@ i2c:
 # Touchscreen (GT911)
 touchscreen:
   - platform: gt911
-    i2c_address: 0x14
+    address: 0x14
     id: touch_screen
     update_interval: 50ms
-    irq_pin: GPIO13  # Interrupt-Pin
-    cs_pin: GPIO15   # Chip-Select-Pin
+    interrupt_pin: GPIO13  # Interrupt-Pin
+    #cs_pin: GPIO15   # Chip-Select-Pin
     reset_pin: GPIO16
 
 # RPI_DPI_RGB Display
