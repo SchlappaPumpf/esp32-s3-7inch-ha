@@ -210,38 +210,38 @@ color:
     blue: 0%
 
 font:
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_98
     size: 98
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_96
     size: 96
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_134
     size: 134
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_128
     size: 128
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_48
     size: 48
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_36
     size: 36
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_24
     size: 24
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_18
     size: 18
-  - file: "fonts/arial.ttf"
+  - file: "https://github.com/schlappapumpf/font/arial.ttf"
     id: arial_12
     size: 12
   - file: "gfonts://Roboto"
     id: roboto10
     size: 10
     bpp: 4
-  - file: "fonts/materialdesignicons-webfont.ttf"
+  - file: "https://github.com/Templarian/MaterialDesign-Webfont/fonts/materialdesignicons-webfont.ttf"
     id: mdi_42
     size: 42
     bpp: 4
