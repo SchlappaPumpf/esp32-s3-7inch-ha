@@ -7,6 +7,7 @@ substitutions:
   device_wifi_name: test
   device_friendly_name: test
   device_sampling_time: 30s
+  switch_aquarium_kinderzimmer: switch.shellyplus1pm_e465b8f25704_switch_0
 
   # glyphs
   #lightbulb_on:      "\U000F0335"
@@ -151,7 +152,7 @@ sensor:
 text_sensor:
   - platform: homeassistant
     id: remote_light
-    entity_id: switch.shellyplus1pm_e465b8f25704_switch_0
+    entity_id: ${switch_aquarium_kinderzimmer}
     on_value:
       then:
         - lvgl.widget.update: # matrix button
@@ -369,20 +370,20 @@ lvgl:
                         align: CENTER
                         y: -20
                         text_font: mdi_42
-                        text: "$lightbulb_off" # mdi-lightbulb-outline
+                        text: "aus" #$lightbulb_off # mdi-lightbulb-outline
 
                     - label:
                         #id: cov_up_east
                         align: CENTER
                         y: 20
-                        text: "Light"
+                        text: "Aquarium Kim"
                         text_color: my_white
                         text_font: arial_18
                   on_short_click:
                     - homeassistant.action:
                         action: switch.toggle
                         data:
-                          entity_id: switch.smart_power_strip_socket_2
+                          entity_id: ${switch_aquarium_kinderzimmer}
                     - logger.log:
                         format: "Light button clicked: %d"
                         args: [ x ]
