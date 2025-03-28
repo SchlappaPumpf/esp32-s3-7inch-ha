@@ -209,44 +209,44 @@ color:
 
 font:
   - file: "gfonts://Roboto"
-    id: arial_98
+    id: roboto98
     size: 98
   - file: "gfonts://Roboto"
-    id: arial_96
+    id: roboto96
     size: 96
   - file: "gfonts://Roboto"
-    id: arial_134
+    id: roboto134
     size: 134
   - file: "gfonts://Roboto"
-    id: arial_128
+    id: roboto128
     size: 128
   - file: "gfonts://Roboto"
-    id: arial_48
+    id: roboto48
     size: 48
   - file: "gfonts://Roboto"
-    id: arial_36
+    id: roboto36
     size: 36
   - file: "gfonts://Roboto"
-    id: arial_24
+    id: roboto24
     size: 24
   - file: "gfonts://Roboto"
-    id: arial_18
+    id: roboto18
     size: 18
   - file: "gfonts://Roboto"
-    id: arial_12
+    id: roboto12
     size: 12
   - file: "gfonts://Roboto"
     id: roboto10
     size: 10
     bpp: 4
   - file: "gfonts://Roboto"
-    id: mdi_42
+    id: roboto42
     size: 42
     bpp: 4
-    glyphs: [
-      "$lightbulb_on", 
-      "$lightbulb_off", 
-      ]
+    #glyphs: [
+    #  "$lightbulb_on", 
+    #  "$lightbulb_off", 
+    #  ]
 
 
 ############################################ START OF VLGL
